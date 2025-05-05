@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="math_3d.cpp" />
+    <ClCompile Include="ogldev_util.cpp" />
+    <ClCompile Include="world_transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9099e6f0-5591-427f-8c26-b0958620885d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="world_transform.h" />
+  </ItemGroup>
+</Project>
